@@ -1,0 +1,5 @@
+syntax      ::= ( rule )+
+rule        ::= 'id' ( '::=' | '->' ) expression
+expression  ::= term ( '|' term )* ( '|' | )
+term        ::= ( factor )+
+factor      ::= ( 'id' | 'text' | '(' expression ')' ) ( '+' | '*' | )

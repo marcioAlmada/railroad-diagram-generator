@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="550" height="188" viewBox="-8 -86 550 188 " xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs><style type="text/css">.terminal_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.terminal_text{fill:black;font-family:Verdana,Sans-serif;text-anchor:middle;font-size:14px;}.symbol_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.symbol_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-style:italic;text-anchor:middle;font-size:14px;}.path{fill:none;stroke:black;stroke-width:2;}.rule_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-size:14px;}.rule_path_edge{fill:none;stroke:black;stroke-width:3;}</style></defs>
+<text class="rule_text" x="0" y="-64" >array:</text>
+<rect class="terminal_rect" x="30" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="43" y="4" >[</text>
+<rect class="symbol_rect" x="116" y="-14" width="66" height="28" rx="1" />
+<text class="symbol_text" x="149" y="4" >value</text>
+<rect class="terminal_rect" x="254" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="267" y="4" >,</text>
+<rect class="symbol_rect" x="304" y="-14" width="66" height="28" rx="1" />
+<text class="symbol_text" x="337" y="4" >value</text>
+<path class="path" d="M280 0 L304 0" />
+<path class="path" d="M254 0 L230 0 M242 0 Q230 0 230 -12 L230 -36 Q230 -48 242 -48 L382 -48 Q394 -48 394 -36 L394 -12 Q394 0 382 0 L370 0 L394 0" />
+<path class="path" d="M254 0 L206 0 Q218 0 218 12 L218 24 Q218 36 230 36 L394 36 Q406 36 406 24 L406 12 Q406 0 418 0 L370 0 M206 0 L230 0 M394 0 L418 0" />
+<path class="path" d="M182 0 L206 0" />
+<path class="path" d="M116 72 L132 72" />
+<path class="path" d="M80 0 L116 0 M80 0 Q92 0 92 12 M454 0 L418 0 M454 0 Q442 0 442 12" />
+<path class="path" d="M104 72 L116 72 M104 72 Q92 72 92 60 L92 12 M430 72 L132 72 M430 72 Q442 72 442 60 L442 12" />
+<rect class="terminal_rect" x="478" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="491" y="4" >]</text>
+<path class="path" d="M56 0 L80 0" />
+<path class="path" d="M454 0 L478 0" />
+<path class="path" d="M0 0 L30 0 M534 0 L504 0" />
+<path class="rule_path_edge" d="M0 -6 L0 6 M534 -6 L534 6" />
+</svg>

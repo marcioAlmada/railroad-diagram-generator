@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1266" height="248" viewBox="-8 -86 1266 248 " xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs><style type="text/css">.terminal_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.terminal_text{fill:black;font-family:Verdana,Sans-serif;text-anchor:middle;font-size:14px;}.symbol_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.symbol_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-style:italic;text-anchor:middle;font-size:14px;}.path{fill:none;stroke:black;stroke-width:2;}.rule_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-size:14px;}.rule_path_edge{fill:none;stroke:black;stroke-width:3;}</style></defs>
+<text class="rule_text" x="0" y="-64" >number:</text>
+<rect class="terminal_rect" x="66" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="79" y="4" >-</text>
+<path class="path" d="M66 44 L82 44" />
+<path class="path" d="M30 0 L66 0 M30 0 Q42 0 42 12 M128 0 L92 0 M128 0 Q116 0 116 12" />
+<path class="path" d="M54 44 L66 44 M54 44 Q42 44 42 32 L42 12 M104 44 L82 44 M104 44 Q116 44 116 32 L116 12" />
+<rect class="terminal_rect" x="188" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="201" y="4" >0</text>
+<rect class="symbol_rect" x="188" y="58" width="96" height="28" rx="1" />
+<text class="symbol_text" x="236" y="76" >digit1_9</text>
+<rect class="symbol_rect" x="356" y="58" width="66" height="28" rx="1" />
+<text class="symbol_text" x="389" y="76" >digit</text>
+<path class="path" d="M356 72 L332 72 M344 72 Q332 72 332 60 L332 36 Q332 24 344 24 L434 24 Q446 24 446 36 L446 60 Q446 72 434 72 L422 72 L446 72" />
+<path class="path" d="M356 72 L308 72 Q320 72 320 84 L320 96 Q320 108 332 108 L446 108 Q458 108 458 96 L458 84 Q458 72 470 72 L422 72 M308 72 L332 72 M446 72 L470 72" />
+<path class="path" d="M284 72 L308 72" />
+<path class="path" d="M152 0 L188 0 M152 0 Q164 0 164 12 M506 0 L214 0 M506 0 Q494 0 494 12" />
+<path class="path" d="M176 72 L188 72 M176 72 Q164 72 164 60 L164 12 M482 72 L470 72 M482 72 Q494 72 494 60 L494 12" />
+<rect class="terminal_rect" x="566" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="579" y="4" >.</text>
+<rect class="symbol_rect" x="640" y="-14" width="66" height="28" rx="1" />
+<text class="symbol_text" x="673" y="4" >digit</text>
+<path class="path" d="M640 0 L616 0 M628 0 Q616 0 616 -12 L616 -36 Q616 -48 628 -48 L718 -48 Q730 -48 730 -36 L730 -12 Q730 0 718 0 L706 0 L730 0" />
+<path class="path" d="M592 0 L616 0" />
+<path class="path" d="M566 44 L582 44" />
+<path class="path" d="M530 0 L566 0 M530 0 Q542 0 542 12 M766 0 L730 0 M766 0 Q754 0 754 12" />
+<path class="path" d="M554 44 L566 44 M554 44 Q542 44 542 32 L542 12 M742 44 L582 44 M742 44 Q754 44 754 32 L754 12" />
+<rect class="terminal_rect" x="862" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="875" y="4" >e</text>
+<rect class="terminal_rect" x="862" y="30" width="26" height="28" rx="28" />
+<text class="terminal_text" x="875" y="48" >E</text>
+<path class="path" d="M826 0 L862 0 M826 0 Q838 0 838 12 M924 0 L888 0 M924 0 Q912 0 912 12" />
+<path class="path" d="M850 44 L862 44 M850 44 Q838 44 838 32 L838 12 M900 44 L888 44 M900 44 Q912 44 912 32 L912 12" />
+<rect class="terminal_rect" x="984" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="997" y="4" >+</text>
+<rect class="terminal_rect" x="984" y="30" width="26" height="28" rx="28" />
+<text class="terminal_text" x="997" y="48" >-</text>
+<path class="path" d="M984 88 L1000 88" />
+<path class="path" d="M948 0 L984 0 M948 0 Q960 0 960 12 M1046 0 L1010 0 M1046 0 Q1034 0 1034 12" />
+<path class="path" d="M972 44 L984 44 M972 44 Q960 44 960 32 L960 12 M1022 44 L1010 44 M1022 44 Q1034 44 1034 32 L1034 12" />
+<path class="path" d="M972 88 L984 88 M972 88 Q960 88 960 76 L960 32 M1022 88 L1000 88 M1022 88 Q1034 88 1034 76 L1034 32" />
+<rect class="symbol_rect" x="1094" y="-14" width="66" height="28" rx="1" />
+<text class="symbol_text" x="1127" y="4" >digit</text>
+<path class="path" d="M1094 0 L1070 0 M1082 0 Q1070 0 1070 -12 L1070 -36 Q1070 -48 1082 -48 L1172 -48 Q1184 -48 1184 -36 L1184 -12 Q1184 0 1172 0 L1160 0 L1184 0" />
+<path class="path" d="M924 0 L948 0" />
+<path class="path" d="M1046 0 L1070 0" />
+<path class="path" d="M826 132 L842 132" />
+<path class="path" d="M790 0 L826 0 M790 0 Q802 0 802 12 M1220 0 L1184 0 M1220 0 Q1208 0 1208 12" />
+<path class="path" d="M814 132 L826 132 M814 132 Q802 132 802 120 L802 12 M1196 132 L842 132 M1196 132 Q1208 132 1208 120 L1208 12" />
+<path class="path" d="M128 0 L152 0" />
+<path class="path" d="M506 0 L530 0" />
+<path class="path" d="M766 0 L790 0" />
+<path class="path" d="M0 0 L30 0 M1250 0 L1220 0" />
+<path class="rule_path_edge" d="M0 -6 L0 6 M1250 -6 L1250 6" />
+</svg>

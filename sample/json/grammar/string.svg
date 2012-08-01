@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="944" height="556" viewBox="-8 -86 944 556 " xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs><style type="text/css">.terminal_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.terminal_text{fill:black;font-family:Verdana,Sans-serif;text-anchor:middle;font-size:14px;}.symbol_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.symbol_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-style:italic;text-anchor:middle;font-size:14px;}.path{fill:none;stroke:black;stroke-width:2;}.rule_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-size:14px;}.rule_path_edge{fill:none;stroke:black;stroke-width:3;}</style></defs>
+<text class="rule_text" x="0" y="-64" >string:</text>
+<rect class="terminal_rect" x="30" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="43" y="4" >&quot;</text>
+<rect class="terminal_rect" x="176" y="-14" width="576" height="28" rx="28" />
+<text class="terminal_text" x="464" y="4" >any Unicode character except &quot; or \ or control character</text>
+<rect class="terminal_rect" x="176" y="30" width="26" height="28" rx="28" />
+<text class="terminal_text" x="189" y="48" >\</text>
+<rect class="terminal_rect" x="262" y="30" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="48" >&quot;</text>
+<rect class="terminal_rect" x="262" y="74" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="92" >\</text>
+<rect class="terminal_rect" x="262" y="118" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="136" >/</text>
+<rect class="terminal_rect" x="262" y="162" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="180" >b</text>
+<rect class="terminal_rect" x="262" y="206" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="224" >f</text>
+<rect class="terminal_rect" x="262" y="250" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="268" >n</text>
+<rect class="terminal_rect" x="262" y="294" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="312" >r</text>
+<rect class="terminal_rect" x="262" y="338" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="356" >t</text>
+<rect class="terminal_rect" x="262" y="382" width="26" height="28" rx="28" />
+<text class="terminal_text" x="275" y="400" >u</text>
+<rect class="symbol_rect" x="312" y="382" width="166" height="28" rx="1" />
+<text class="symbol_text" x="395" y="400" >four_hex_digits</text>
+<path class="path" d="M288 396 L312 396" />
+<path class="path" d="M226 44 L262 44 M226 44 Q238 44 238 56 M514 44 L288 44 M514 44 Q502 44 502 56" />
+<path class="path" d="M250 88 L262 88 M250 88 Q238 88 238 76 L238 56 M490 88 L288 88 M490 88 Q502 88 502 76 L502 56" />
+<path class="path" d="M250 132 L262 132 M250 132 Q238 132 238 120 L238 76 M490 132 L288 132 M490 132 Q502 132 502 120 L502 76" />
+<path class="path" d="M250 176 L262 176 M250 176 Q238 176 238 164 L238 120 M490 176 L288 176 M490 176 Q502 176 502 164 L502 120" />
+<path class="path" d="M250 220 L262 220 M250 220 Q238 220 238 208 L238 164 M490 220 L288 220 M490 220 Q502 220 502 208 L502 164" />
+<path class="path" d="M250 264 L262 264 M250 264 Q238 264 238 252 L238 208 M490 264 L288 264 M490 264 Q502 264 502 252 L502 208" />
+<path class="path" d="M250 308 L262 308 M250 308 Q238 308 238 296 L238 252 M490 308 L288 308 M490 308 Q502 308 502 296 L502 252" />
+<path class="path" d="M250 352 L262 352 M250 352 Q238 352 238 340 L238 296 M490 352 L288 352 M490 352 Q502 352 502 340 L502 296" />
+<path class="path" d="M250 396 L262 396 M250 396 Q238 396 238 384 L238 340 M490 396 L478 396 M490 396 Q502 396 502 384 L502 340" />
+<path class="path" d="M202 44 L226 44" />
+<path class="path" d="M140 0 L176 0 M140 0 Q152 0 152 12 M788 0 L752 0 M788 0 Q776 0 776 12" />
+<path class="path" d="M164 44 L176 44 M164 44 Q152 44 152 32 L152 12 M764 44 L514 44 M764 44 Q776 44 776 32 L776 12" />
+<path class="path" d="M140 0 L116 0 M128 0 Q116 0 116 -12 L116 -36 Q116 -48 128 -48 L800 -48 Q812 -48 812 -36 L812 -12 Q812 0 800 0 L788 0 L812 0" />
+<path class="path" d="M116 440 L132 440" />
+<path class="path" d="M80 0 L116 0 M80 0 Q92 0 92 12 M848 0 L812 0 M848 0 Q836 0 836 12" />
+<path class="path" d="M104 440 L116 440 M104 440 Q92 440 92 428 L92 12 M824 440 L132 440 M824 440 Q836 440 836 428 L836 12" />
+<rect class="terminal_rect" x="872" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="885" y="4" >&quot;</text>
+<path class="path" d="M56 0 L80 0" />
+<path class="path" d="M848 0 L872 0" />
+<path class="path" d="M0 0 L30 0 M928 0 L898 0" />
+<path class="rule_path_edge" d="M0 -6 L0 6 M928 -6 L928 6" />
+</svg>

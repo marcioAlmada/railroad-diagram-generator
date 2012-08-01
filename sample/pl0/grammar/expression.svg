@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="552" height="204" viewBox="-8 -86 552 204 " xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs><style type="text/css">.terminal_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.terminal_text{fill:black;font-family:Verdana,Sans-serif;text-anchor:middle;font-size:14px;}.symbol_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.symbol_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-style:italic;text-anchor:middle;font-size:14px;}.path{fill:none;stroke:black;stroke-width:2;}.rule_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-size:14px;}.rule_path_edge{fill:none;stroke:black;stroke-width:3;}</style></defs>
+<text class="rule_text" x="0" y="-64" >expression:</text>
+<rect class="terminal_rect" x="66" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="79" y="4" >+</text>
+<rect class="terminal_rect" x="66" y="30" width="26" height="28" rx="28" />
+<text class="terminal_text" x="79" y="48" >-</text>
+<path class="path" d="M66 88 L82 88" />
+<path class="path" d="M30 0 L66 0 M30 0 Q42 0 42 12 M128 0 L92 0 M128 0 Q116 0 116 12" />
+<path class="path" d="M54 44 L66 44 M54 44 Q42 44 42 32 L42 12 M104 44 L92 44 M104 44 Q116 44 116 32 L116 12" />
+<path class="path" d="M54 88 L66 88 M54 88 Q42 88 42 76 L42 32 M104 88 L82 88 M104 88 Q116 88 116 76 L116 32" />
+<rect class="symbol_rect" x="152" y="-14" width="56" height="28" rx="1" />
+<text class="symbol_text" x="180" y="4" >term</text>
+<rect class="terminal_rect" x="316" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="329" y="4" >+</text>
+<rect class="terminal_rect" x="316" y="30" width="26" height="28" rx="28" />
+<text class="terminal_text" x="329" y="48" >-</text>
+<path class="path" d="M280 0 L316 0 M280 0 Q292 0 292 12 M378 0 L342 0 M378 0 Q366 0 366 12" />
+<path class="path" d="M304 44 L316 44 M304 44 Q292 44 292 32 L292 12 M354 44 L342 44 M354 44 Q366 44 366 32 L366 12" />
+<rect class="symbol_rect" x="402" y="-14" width="56" height="28" rx="1" />
+<text class="symbol_text" x="430" y="4" >term</text>
+<path class="path" d="M378 0 L402 0" />
+<path class="path" d="M280 0 L256 0 M268 0 Q256 0 256 -12 L256 -36 Q256 -48 268 -48 L470 -48 Q482 -48 482 -36 L482 -12 Q482 0 470 0 L458 0 L482 0" />
+<path class="path" d="M280 0 L232 0 Q244 0 244 12 L244 68 Q244 80 256 80 L482 80 Q494 80 494 68 L494 12 Q494 0 506 0 L458 0 M232 0 L256 0 M482 0 L506 0" />
+<path class="path" d="M128 0 L152 0" />
+<path class="path" d="M208 0 L232 0" />
+<path class="path" d="M0 0 L30 0 M536 0 L506 0" />
+<path class="rule_path_edge" d="M0 -6 L0 6 M536 -6 L536 6" />
+</svg>

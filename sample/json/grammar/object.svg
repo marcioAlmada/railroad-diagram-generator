@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="850" height="188" viewBox="-8 -86 850 188 " xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs><style type="text/css">.terminal_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.terminal_text{fill:black;font-family:Verdana,Sans-serif;text-anchor:middle;font-size:14px;}.symbol_rect{fill:rgb(206,255,206);stroke:black;stroke-width:2;}.symbol_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-style:italic;text-anchor:middle;font-size:14px;}.path{fill:none;stroke:black;stroke-width:2;}.rule_text{fill:black;font-family:Verdana,Sans-serif;font-weight:bold;font-size:14px;}.rule_path_edge{fill:none;stroke:black;stroke-width:3;}</style></defs>
+<text class="rule_text" x="0" y="-64" >object:</text>
+<rect class="terminal_rect" x="30" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="43" y="4" >{</text>
+<rect class="symbol_rect" x="116" y="-14" width="76" height="28" rx="1" />
+<text class="symbol_text" x="154" y="4" >string</text>
+<rect class="terminal_rect" x="216" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="229" y="4" >:</text>
+<rect class="symbol_rect" x="266" y="-14" width="66" height="28" rx="1" />
+<text class="symbol_text" x="299" y="4" >value</text>
+<rect class="terminal_rect" x="404" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="417" y="4" >,</text>
+<rect class="symbol_rect" x="454" y="-14" width="76" height="28" rx="1" />
+<text class="symbol_text" x="492" y="4" >string</text>
+<rect class="terminal_rect" x="554" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="567" y="4" >:</text>
+<rect class="symbol_rect" x="604" y="-14" width="66" height="28" rx="1" />
+<text class="symbol_text" x="637" y="4" >value</text>
+<path class="path" d="M430 0 L454 0" />
+<path class="path" d="M530 0 L554 0" />
+<path class="path" d="M580 0 L604 0" />
+<path class="path" d="M404 0 L380 0 M392 0 Q380 0 380 -12 L380 -36 Q380 -48 392 -48 L682 -48 Q694 -48 694 -36 L694 -12 Q694 0 682 0 L670 0 L694 0" />
+<path class="path" d="M404 0 L356 0 Q368 0 368 12 L368 24 Q368 36 380 36 L694 36 Q706 36 706 24 L706 12 Q706 0 718 0 L670 0 M356 0 L380 0 M694 0 L718 0" />
+<path class="path" d="M192 0 L216 0" />
+<path class="path" d="M242 0 L266 0" />
+<path class="path" d="M332 0 L356 0" />
+<path class="path" d="M116 72 L132 72" />
+<path class="path" d="M80 0 L116 0 M80 0 Q92 0 92 12 M754 0 L718 0 M754 0 Q742 0 742 12" />
+<path class="path" d="M104 72 L116 72 M104 72 Q92 72 92 60 L92 12 M730 72 L132 72 M730 72 Q742 72 742 60 L742 12" />
+<rect class="terminal_rect" x="778" y="-14" width="26" height="28" rx="28" />
+<text class="terminal_text" x="791" y="4" >}</text>
+<path class="path" d="M56 0 L80 0" />
+<path class="path" d="M754 0 L778 0" />
+<path class="path" d="M0 0 L30 0 M834 0 L804 0" />
+<path class="rule_path_edge" d="M0 -6 L0 6 M834 -6 L834 6" />
+</svg>

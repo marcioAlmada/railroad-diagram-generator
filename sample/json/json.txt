@@ -1,0 +1,5 @@
+object  ::= '{' ( string ':' value ( ',' string ':' value )* | ) '}'
+array   ::= '[' ( value ( ',' value )* | ) ']'
+value   ::= string | number | object | array | 'true' | 'false' | 'null'
+string  ::= '"' ( ( 'any Unicode character except " or \ or control character' | ( '\' ( '"' | '\' | '/' | 'b' | 'f' | 'n' | 'r' | 't' | 'u' four_hex_digits ) ) )+ | ) '"'
+number  ::= ( '-' | ) ( '0' | digit1_9 ( digit )* ) ( '.' ( digit )+ | ) ( ( 'e' | 'E' ) ( '+' | '-' | ) ( digit )+ | )

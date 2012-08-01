@@ -1,0 +1,23 @@
+railroad-diagram-generator
+(c)by xStone 2012
+released under terms of GNU General Public License v2
+
+
+1.Introduction
+----------------
+This is a tool for generating railroad diagrams. The EBNF grammar
+used by the tool is described in doc/introduction/grammar.txt, and
+you can find some samples under directory sample/.
+
+
+2. Build
+----------------
+$ mkdir build
+$ cd build
+$ qmake ../railroad-diagram-generator.pro
+$ make
+
+
+3. Usage
+----------------
+railroad-diagram-generator grammar_file

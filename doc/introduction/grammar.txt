@@ -1,0 +1,8 @@
+syntax      ::= ( rule )+
+rule        ::= 'id' ( '::=' | '->' ) expression
+expression  ::= term ( '|' term )* ( '|' | )
+term        ::= ( factor )+
+factor      ::= ( 'id' | 'text' | '(' expression ')' ) ( '+' | '*' | )
+
+id is any string of alpha([a-zA-Z]) characters or number([0-9]) characters or underscores ('_')
+text is any double-quoted string("...") or signle-quoted string('...') without newline('\n')
