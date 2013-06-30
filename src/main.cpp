@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
         Placer::placeNode(n);
     }
 
-    std::string dir_name = "grammar";
+    std::string dir_name = std::string(file_name) + "_grammar";
     mkdir(dir_name.c_str(), S_IRWXU | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH);
     generate_svg_file(dir_name, nodes);
 
@@ -57,8 +57,7 @@ int main(int argc, char* argv[])
 
 void display_usage()
 {
-    std::cout << "\n"
-              << "Usage:\n"
+    std::cout << "Usage:\n"
               << "railroad-diagram-generator grammar_file\n";
 }
 
