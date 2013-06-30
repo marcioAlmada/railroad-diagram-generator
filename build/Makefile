@@ -1,6 +1,6 @@
 #############################################################################
 #
-# Makefile for building: pl0-compiler
+# Makefile for building: railroad-diagram-generator
 #
 #############################################################################
 
@@ -16,11 +16,11 @@ DEL_FILE      = rm -f
 ####### Files
 
 OBJECTS       = ./main.o \
-		./buffer.o \
-		./lexer.o \
-		./parser.o \
-		./placer.o \
-		./svg_generator.o
+                ./buffer.o \
+                ./lexer.o \
+                ./parser.o \
+                ./placer.o \
+                ./svg_generator.o
 TARGET        = railroad-diagram-generator
 
 ####### Build rules
@@ -34,7 +34,7 @@ main.o: ../src/main.cpp
 buffer.o: ../src/lex/buffer.cpp
 	$(CXX) -c $(CXXFLAGS) -o ./buffer.o ../src/lex/buffer.cpp
 
-lexer.o: ../src/lex/lexer.cpp 
+lexer.o: ../src/lex/lexer.cpp
 	$(CXX) -c $(CXXFLAGS) -o ./lexer.o ../src/lex/lexer.cpp
 
 parser.o: ../src/parse/parser.cpp
