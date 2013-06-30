@@ -1,8 +1,6 @@
 # railroad-diagram-generator
 
-A tool for generating railroad diagrams. The EBNF grammar
-used by the tool is described in doc/introduction/grammar.txt, and
-you can find some samples under directory sample/.
+A tool for generating railroad diagrams. The EBNF grammar used by the tool is described in doc/introduction/grammar.txt, and you can find some samples under directory sample/.
 
 ## Sample
 
@@ -14,14 +12,9 @@ The EBNF grammar of `EBNF`:
     term        ::= ( factor )+
     factor      ::= ( 'id' | 'text' | '(' expression ')' ) ( '+' | '*' | )
 
+    id is any string of alpha([a-zA-Z]) characters or number([0-9]) characters or underscores ('_')
+    text is any double-quoted string("...") or signle-quoted string('...') without newline('\n')
+
 The railroad diagrams of `EBNF`:
 
-![syntax](./sample/ebnf/ebnf.txt_grammar/syntax.svg)
-
-![rule](./sample/ebnf/ebnf.txt_grammar/rule.svg)
-
-![expression](./sample/ebnf/ebnf.txt_grammar/expression.svg)
-
-![term](./sample/ebnf/ebnf.txt_grammar/term.svg)
-
-![factor](./sample/ebnf/ebnf.txt_grammar/factor.svg)
+![railroad diagrams](./doc/introduction/railroad_diagrams.png)
