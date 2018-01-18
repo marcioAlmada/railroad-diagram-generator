@@ -43,7 +43,7 @@ void SVGGenerator::genNodeSVG(RuleNode* node)
                                                std::to_string(rect.getTop() - SVG_VERTICAL_PADDING) + " " +
                                                std::to_string(rect.getWidth() + SVG_HORIZONTAL_PADDING * 2) + " " +
                                                std::to_string(rect.getHeight() + SVG_VERTICAL_PADDING * 2) + " " + "\" " +
-                   std::string("xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">"));
+                   std::string("xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\">"));
 
     genSVGStyle(std::string(".") + TERMIANL_RECT_CLASS + std::string("{") +
                                    TERMIANL_RECT_STYLE + std::string("}") +
@@ -464,13 +464,27 @@ void SVGGenerator::genSVGText(const std::string& text_class, int x, int y, const
                 break;
         }
     }
-    SVG_codes_.push_back(std::string("<text ") +
+    std::string text_block = std::string("<text ") +
                          std::string("class=\"") + text_class + "\" " +
                          std::string("x=\"") + std::to_string(x) + "\" " +
                          std::string("y=\"") + std::to_string(y) + "\" " +
                          std::string(">") +
                          data +
-                         std::string("</text>"));
+                         std::string("</text>");
+    if (text_class.compare("rule_text") == 0) {
+        text_block = std::string("<a id=\"") +
+                            data.substr(0, data.length() - 1) +
+                            std::string("\">") +
+                            text_block +
+                            std::string("</a>");
+    } else if (text_class.compare("symbol_text") == 0) {
+        text_block = std::string("<a xlink:href=\"#") +
+                            data +
+                            std::string("\">") +
+                            text_block +
+                            std::string("</a>");
+    }
+    SVG_codes_.push_back(text_block);
 }
 
 void SVGGenerator::genSVGPath(const std::string& path_class, const std::string& path)
